@@ -173,7 +173,7 @@ void dibujaTriangualosG(int x, int y, float r)
 {
   pushStyle();
   pushMatrix();
-  noStroke();
+  stroke(255);
   translate(x, y);
   rotate(r*radians(5));
   fill(255);
@@ -190,10 +190,9 @@ void dibujaTriangualosM(int x, int y, float r)
 {
   pushStyle();
   pushMatrix();
-  noStroke();
+  stroke(255);
   translate(x, y);
   rotate(r*radians(5));
-
   fill(255);
   scale(2.0);
   beginShape(TRIANGLES);
@@ -208,7 +207,7 @@ void dibujaTriangualosP(int x, int y, float r)
 {
   pushStyle();
   pushMatrix();
-  noStroke();
+  stroke(255);
   translate(x, y);
   rotate(r*radians(5));
   fill(255);
@@ -225,7 +224,7 @@ void dibujaCaudrado(int x, int y, float r)
 {
   pushStyle();
   pushMatrix();
-  noStroke();
+  stroke(255);
   translate(x, y);
   rotate(r*radians(5));
   fill(255);
@@ -243,7 +242,7 @@ void dibujaParalel(int x, int y, float r)
 {
   pushStyle();
   pushMatrix();
-  noStroke();
+  stroke(255);
   translate(x, y);
   rotate(r*radians(5));
   fill(255);
